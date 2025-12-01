@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;   
+    background-color: gray;
+  }
+
+  .title-container{
+    text-align: center;
+  }
+
+.card-container {
+    /* background-color:rgb(170, 79, 79); */
+    width: 350px;
+    height: 300px;
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    background: rgba(77, 31, 77, 0.756);
+    box-shadow:3px 3px 8px rgb(0, 0, 0, 0) ;
+    padding: 20px;
+} 
+
+
+.title-container h3{
+    margin: 0px;
+    font-family:cursive;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.616);
+}
+.title-container h2{
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    color: white;
+}
+
+form{
+    text-align: center;
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+}
+.input{
+     color: grey;
+    display: block;
+    text-decoration:none ;
+    font-size: 20px;
+    width: 300px;
+    padding: 20px 0px;
+    margin: 50px 20px;
+    background-color:white;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.button-container button{
+    background-color: rgba(139, 0, 0, 0.178);
+    width: 50%;
+    text-align: center;
+    padding:10px 0px;
+    margin: 20px 10px 0px 10px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.button-container button{
+    background-color:rgba(139, 0, 0, 0.178);
+    text-align: center;
+    color: white
+}
