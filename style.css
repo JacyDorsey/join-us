@@ -11,8 +11,8 @@ body{
 
 .card-container {
     /* background-color:rgb(170, 79, 79); */
-    width: 350px;
-    height: 300px;
+    width:400px;
+    height: 350px;
    position: absolute;
     top: 50%;
     left: 50%;
@@ -24,13 +24,13 @@ body{
 
 
 .title-container h3{
-    margin: 0px;
+    margin:10px 0px;
     font-family:cursive;
     text-align: center;
     color: rgba(255, 255, 255, 0.616);
 }
 .title-container h2{
-    margin: 10px 0px 0px 0px;
+    margin: 10px 10px;
     text-align: center;
     color: white;
 }
@@ -40,24 +40,23 @@ form{
     width: 100%;
     margin: 20px 0px 0px 0px;
 }
-.input{
+input[type="text"]{
      color: grey;
     display: block;
     text-decoration:none ;
     font-size: 20px;
-    width: 300px;
-    padding: 20px 0px;
-    margin: 50px 20px;
+    width: 100%;
+    padding: 10px 10px;
+    margin: 20px 0px;
     background-color:white;
-    text-align: center;
-    margin: 10px 0px;
+    border-radius: 200px;
 }
 
 .button-container button{
     background-color: rgba(139, 0, 0, 0.178);
     width: 50%;
     text-align: center;
-    padding:10px 0px;
+    padding:20px 0px;
     margin: 20px 10px 0px 10px;
     border: none;
     color: white;
